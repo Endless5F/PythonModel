@@ -31,5 +31,6 @@
         * Anomaly Detection：异常检测
             * 高斯分布：𝑓(𝑥) = (1/(√2𝜋 * 𝜎)) * (𝑒^(−((𝑥−𝜇)^2)/(2*𝜎^2)))，公式中μ为平均数，σ为标准差，f(x)为正态分布函数
             * 高阶高斯分布：p(x) = Πj=1~n 𝑓(j)，“Π”累乘符号 j代表对每一个维度都计算对应的正态分布
+        * PCA(Principal Component Analysis)，即主成分分析方法：数据降维算法
 3. modelevaluationoptimization：模型评价优化
 4. migrationhybridmodel：迁移混合模型
