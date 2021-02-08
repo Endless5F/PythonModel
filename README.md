@@ -3,11 +3,11 @@
 # 项目依赖包
 
 1. 导出所有项目的依赖包命令：pip3 freeze > requirements.txt
-2. 安装项目依赖的时候使用命令：pip install -r requirements.txt
+2. 安装项目依赖的时候使用命令：pip3 install -r requirements.txt
 
 ## jupyter notebook
 
-1. 安装jupyter notebook：Terminal -> pip install jupyter notebook
+1. 安装jupyter notebook：Terminal -> pip3 install jupyter notebook
 2. 运行jupyter notebook：Terminal -> jupyter notebook
 
 ## 项目目录简介
