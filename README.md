@@ -1,5 +1,10 @@
 # PythonModel
 
+# 项目依赖包
+
+1. 导出所有项目的依赖包命令：pip3 freeze > requirements.txt
+2. 安装项目依赖的时候使用命令：pip install -r requirements.txt
+
 ## jupyter notebook
 
 1. 安装jupyter notebook：Terminal -> pip install jupyter notebook
@@ -8,10 +13,13 @@
 ## 项目目录简介
 
 1. deeplearn：深度学习
+    * Keras 中文文档：https://keras.io/zh/
+    * 安装TensorFlow：pip install tensorflow -i https://pypi.tuna.tsinghua.edu.cn/simple/
     * multilayerperception：多层感知
     * convolutionalneuralnetwork：卷积神经网络
     * recurrentneuralnetwork：循环神经网络
 2. machinelearn：机器学习
+    * sklearn 中文文档：https://www.scikitlearn.com.cn/
     * linearregression：线性回归
         * 单因子线性回归 - 一元
         * 多因子线性回归实战 - 多元
