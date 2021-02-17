@@ -42,7 +42,7 @@ test_set = train_datagen.flow_from_directory(directory="./icon/dataset/test_set"
 print(model.evaluate_generator(test_set))
 
 # 保存模型和加载模型
-model.save('cat_dog_cnn.keras')
+model.save('cat_dog_cnn.h5')
 
 # 预测自己下载的猫狗图片
 a = [i for i in range(1, 10)]
