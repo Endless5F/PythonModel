@@ -1,4 +1,5 @@
 # -*-coding:utf-8-*-
+# 手写数字图片识别，多分类
 
 # mnist.load_data()报错，出现错误的原因是因为无法连接国外的那个下载链接
 # from keras.datasets import mnist
